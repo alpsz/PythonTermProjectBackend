@@ -34,8 +34,8 @@ def decodeToken(auth_token):
 
 #sending email using mailjet api
 def sendEmail(email, name, token, type):
-    api_key = ''
-    api_secret = ''
+    api_key = '******************************************'
+    api_secret = '***************************************'
     mailjet = Client(auth=(api_key, api_secret), version='v3')
     subject = {
         "verify": "Verify your email",
